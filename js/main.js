@@ -23,3 +23,10 @@ $(function(){
     $('.burger-wrap').removeClass('opened');
   });
 });
+$(window).load(function(){
+  $(".main_first__in").mCustomScrollbar({
+    scrollButtons:{
+      enable:true
+    }
+  });
+});
